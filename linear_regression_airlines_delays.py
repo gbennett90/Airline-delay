@@ -35,7 +35,7 @@ plt.style.use('default')
 
 """Load the dataset and create a dataframe."""
 
-df = pd.read_csv(r"C:\Users\benne\Downloads\archive (1)\Airlines_delays.csv")
+df = pd.read_csv("Airlines_delays.csv")
 df.head()
 
 df.shape
